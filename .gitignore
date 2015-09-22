@@ -27,7 +27,8 @@ proguard/
 *.log
 
 # Intellij
-/.idea/
-/*.iml
-/*/.idea/
+.idea/
+*.iml
+
+/*/.idea
 /*/*.iml
