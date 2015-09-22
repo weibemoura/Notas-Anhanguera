@@ -1,0 +1,26 @@
+<resources>
+    <string name="VName" translatable="false">1.19</string>
+    <string name="app_name">Note Calculator</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="lbN1B">Note the 1st Bimester</string>
+    <string name="lbtN2B">Note the 2nd Bimester</string>
+    <string name="lbRodrigo">Rodrigo Amaral</string>
+    <string name="lbVersao" translatable="false">V:</string>
+    <string name="lbIN1B">Enter Note the 1st Bimester</string>
+    <string name="lbIN2B">Enter Note the 2nd Bimester</string>
+    <string name="lbMedia">Average</string>
+    <string name="lbNN">Note Required</string>
+    <string name="lbMF">Average Faculty</string>
+    <string name="lbIMF">Enter the average college</string>
+    <string name="lbApro">Approved</string>
+    <string name="lbRpro">Disapproved</string>
+    <string name="lb2p">: </string>
+    <string name="lbArredondamento">Rounding</string>
+    <string name="txtOK">OK</string>
+    <string name="txtResultado">Result</string>
+    <string name="txtValorIncorreto">Incorrect Value</string>
+    <string name="banner_ad_unit_id" > ca-app-pub-7485373867185608/3950862972 </string>
+
+
+</resources>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="3" android:orientation="1" android:background="@drawable/fundodraw" android:layout_width="-1" android:layout_height="-1">
+    <ImageView 
+		android:id="@id/logo" 
+		android:clickable="false" 
+		android:layout_width="-2" 
+		android:layout_height="-2" 
+		android:layout_marginTop="40sp" 
+		android:src="@drawable/aesalogo" 
+		android:layout_alignParentLeft="false" 
+		android:layout_alignParentTop="true" 
+		android:layout_centerHorizontal="true" 
+		android:contentDescription="Notas Anhanguera Logo" />
+    <ImageView 
+		android:id="@id/bonecoestudando" 
+		android:clickable="false" 
+		android:layout_width="-2" 
+		android:layout_height="-2" 
+		android:layout_marginLeft="0dp" 
+		android:layout_marginBottom="0dp" 
+		android:src="@drawable/bonecoestudando" 
+		android:layout_alignParentLeft="true" 
+		android:layout_alignParentBottom="true" />
+    <Spinner 
+		android:id="@id/unidade" 
+		android:clickable="true" 
+		android:layout_width="-2" 
+		android:layout_height="-2" 
+		android:layout_marginTop="20dp" 
+		android:hint="Unidade" 
+		android:layout_below="@id/logo" 
+		android:layout_alignLeft="@id/logo" 
+		android:layout_alignRight="@id/logo" 
+		android:spinnerMode="1" />
+    <EditText 
+		android:id="@id/RA" 
+		android:layout_width="-2" 
+		android:layout_height="-2" 
+		android:hint="RA" 
+		android:layout_below="@id/unidade" 
+		android:layout_alignLeft="@id/unidade" 
+		android:layout_alignRight="@id/unidade" 
+		android:inputType="2" />
+    <EditText 
+		android:id="@id/Senha" 
+		android:layout_width="-2" 
+		android:layout_height="-2" 
+		android:hint="Senha" 
+		android:layout_below="@id/RA" 
+		android:layout_alignLeft="@id/RA" 
+		android:layout_alignRight="@id/RA" 
+		android:inputType="81" />
+    <Button 
+		android:id="@id/botaoEntrar" 
+		android:layout_width="-2" 
+		android:layout_height="-2" 
+		android:text="Entrar" 
+		android:layout_below="@id/Senha" 
+		android:layout_alignLeft="@id/Senha" 
+		android:layout_alignRight="@id/Senha" />
+    <TextView 
+		android:textSize="12sp" 
+		android:textColor="#ff090808" 
+		android:clickable="false" 
+		android:layout_width="-2" 
+		android:layout_height="-2" 
+		android:layout_marginRight="10dp" 
+		android:layout_marginBottom="10dp" 
+		android:text="Aplicativo NÃO Oficial" 
+		android:layout_alignParentRight="true" 
+		android:layout_alignParentBottom="true" />
+</RelativeLayout>

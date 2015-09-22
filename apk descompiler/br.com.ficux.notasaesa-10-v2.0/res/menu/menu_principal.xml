@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu>
+    <item android:icon="0x108009d" android:id="@id/menu_notas" android:title="Notas" android:showAsAction="8" />
+    <item android:icon="0x1080028" android:id="@id/menu_calculadora" android:title="Calculadora de notas" android:showAsAction="8" />
+    <item android:icon="0x1080041" android:id="@id/menu_sobre" android:title="Sobre" android:showAsAction="8" />
+    <item android:icon="0x1080038" android:id="@id/menu_sair" android:title="Sair" android:showAsAction="8" />
+</menu>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest 
+	xmlns:"http://schemas.android.com/apk/res/android" 
+	android:versionCode="10" 
+	android:versionName="2.0" 
+	package="br.com.ficux.notasaesa">
+    <uses-sdk 
+		android:minSdkVersion="7" 
+		android:targetSdkVersion="15" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <application 
+		android:label="@string/app_name" 
+		android:icon="@drawable/ic_launcher">
+        <activity 
+			android:theme="@style/AppTheme" 
+			android:label="Notas Anhanguera" 
+			android:name=".NotasAnhangueraActivity" 
+			android:configChanges="keyboardHidden|orientation">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity 
+			android:theme="@style/Theme_Sherlock_Light" 
+			android:label="Notas" 
+			android:name=".NotasActivity" />
+        <activity 
+			android:theme="@style/Theme_Sherlock_Light" 
+			android:label="Calculadora" 
+			android:name=".CalculadoraActivity" />
+        <activity 
+			android:theme="@style/Theme_Sherlock_Light" 
+			android:label="Sobre" 
+			android:name=".SobreActivity" />
+    </application>
+</manifest>

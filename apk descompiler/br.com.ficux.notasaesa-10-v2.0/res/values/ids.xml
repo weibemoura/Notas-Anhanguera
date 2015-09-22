@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="id" name="abs__home" />
+    <item type="id" name="abs__up" />
+    <item type="id" name="abs__action_menu_divider" />
+    <item type="id" name="abs__action_menu_presenter" />
+    <item type="id" name="abs__progress_circular" />
+    <item type="id" name="abs__progress_horizontal" />
+    <item type="id" name="abs__action_bar_title">false</item>
+    <item type="id" name="abs__action_bar_subtitle">false</item>
+    <item type="id" name="abs__imageButton">false</item>
+    <item type="id" name="abs__textButton">false</item>
+    <item type="id" name="abs__action_mode_close_button">false</item>
+    <item type="id" name="abs__activity_chooser_view_content">false</item>
+    <item type="id" name="abs__expand_activities_button">false</item>
+    <item type="id" name="abs__image">false</item>
+    <item type="id" name="abs__default_activity_button">false</item>
+    <item type="id" name="abs__list_item">false</item>
+    <item type="id" name="abs__icon">false</item>
+    <item type="id" name="abs__title">false</item>
+    <item type="id" name="abs__titleDivider">false</item>
+    <item type="id" name="abs__content">false</item>
+    <item type="id" name="abs__checkbox">false</item>
+    <item type="id" name="abs__shortcut">false</item>
+    <item type="id" name="abs__radio">false</item>
+    <item type="id" name="abs__action_bar_container">false</item>
+    <item type="id" name="abs__action_bar">false</item>
+    <item type="id" name="abs__action_context_bar">false</item>
+    <item type="id" name="abs__split_action_bar">false</item>
+    <item type="id" name="abs__action_mode_bar_stub">false</item>
+    <item type="id" name="abs__action_mode_bar">false</item>
+    <item type="id" name="Nota1">false</item>
+    <item type="id" name="botaoCalcular">false</item>
+    <item type="id" name="Nota2">false</item>
+    <item type="id" name="logo">false</item>
+    <item type="id" name="bonecoestudando">false</item>
+    <item type="id" name="unidade">false</item>
+    <item type="id" name="RA">false</item>
+    <item type="id" name="Senha">false</item>
+    <item type="id" name="botaoEntrar">false</item>
+    <item type="id" name="imageView1">false</item>
+    <item type="id" name="tvAluno">false</item>
+    <item type="id" name="tvCurso">false</item>
+    <item type="id" name="listaNotas">false</item>
+    <item type="id" name="menu_notas">false</item>
+    <item type="id" name="menu_calculadora">false</item>
+    <item type="id" name="menu_sobre">false</item>
+    <item type="id" name="menu_sair">false</item>
+</resources>

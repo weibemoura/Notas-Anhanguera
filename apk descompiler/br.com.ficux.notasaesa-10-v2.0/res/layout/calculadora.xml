@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+	android:orientation="1" 
+	android:background="@drawable/fundodraw" 
+	android:layout_width="-1" 
+	android:layout_height="-1"
+    <LinearLayout 	
+		android:orientation="0" 
+		android:layout_width="-1" 
+		android:layout_height="-2" 
+		android:layout_marginLeft="5dp" 
+		android:layout_marginTop="10dp"
+        <LinearLayout 
+			android:orientation="1" 
+			android:layout_width="0dp" 
+			android:layout_height="-2" 
+			android:layout_weight="0.55">
+            <TextView 
+				android:textSize="18sp" 
+				android:textColor="#ff000000" 
+				android:layout_width="-1" 
+				android:layout_height="-2" 
+				android:text="Nota que tirou no 1º Bimestre:" />
+            <EditText 
+				android:id="@id/Nota1" 
+				android:layout_width="-1" 
+				android:layout_height="-2" 
+				android:hint="1ª nota" 
+				android:inputType="2002" />
+        </LinearLayout>
+        <Button 
+			android:id="@id/botaoCalcular" 
+			android:layout_width="0dp" 
+			android:layout_height="-1" 
+			android:text="Calcular" 
+			android:layout_weight="0.3" />
+    </LinearLayout>
+    <TextView 
+		android:textSize="20sp" 
+		android:textColor="#ff000000" 
+		android:gravity="11" 
+		android:layout_width="-1" 
+		android:layout_height="-2" 
+		android:layout_marginTop="20dp" 
+		android:text="Nota que você precisa no 2º Bimestre:" />
+    <TextView 
+		android:textSize="30sp" 
+		android:textColor="#ffaa0000" 
+		android:gravity="11" 
+		android:id="@id/Nota2" 
+		android:layout_width="-1" 
+		android:layout_height="-2" 
+		android:layout_marginTop="20dp" 
+		android:text="0.0" />
+</LinearLayout>

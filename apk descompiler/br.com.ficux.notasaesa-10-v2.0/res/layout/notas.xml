@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:background="@drawable/fundodraw" android:layout_width="-1" android:layout_height="-1">
+    <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+        <TextView android:textSize="18sp" android:textColor="#ff000000" android:id="@id/tvAluno" android:layout_width="-1" android:layout_height="-2" />
+        <TextView android:textSize="14sp" android:textColor="#ff333333" android:id="@id/tvCurso" android:layout_width="-1" android:layout_height="-2" android:layout_marginBottom="4dp" />
+        <LinearLayout android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="5dp" android:layout_marginBottom="2dp" android:weightSum="1.0">
+            <TextView android:textColor="#ffffff" android:gravity="11" android:background="#999999" android:layout_width="0dp" android:layout_height="-1" android:layout_marginRight="2dp" android:text="Disciplinas" android:layout_weight="0.55" />
+            <TextView android:textColor="#ffffff" android:gravity="11" android:background="#999999" android:layout_width="0dp" android:layout_height="-1" android:layout_marginLeft="2dp" android:text="N1" android:layout_weight="0.15" />
+            <TextView android:textColor="#ffffff" android:gravity="11" android:background="#999999" android:layout_width="0dp" android:layout_height="-1" android:layout_marginLeft="2dp" android:text="N2" android:layout_weight="0.15" />
+            <TextView android:textColor="#ffffff" android:gravity="11" android:background="#999999" android:layout_width="0dp" android:layout_height="-1" android:layout_marginLeft="2dp" android:text="Sub" android:layout_weight="0.15" />
+        </LinearLayout>
+        <LinearLayout android:orientation="1" android:id="@id/listaNotas" android:layout_width="-1" android:layout_height="-2" /> />
+</ScrollView>

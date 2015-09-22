@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="3" android:orientation="1" android:background="@drawable/fundodraw" android:layout_width="-1" android:layout_height="-1">
+    <ImageView android:id="@id/logo" android:clickable="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="50dp" android:src="@drawable/aesalogogrande" android:layout_alignParentLeft="false" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+    <Spinner android:id="@id/unidade" android:clickable="true" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="30dp" android:hint="Unidade" android:layout_below="@id/logo" android:layout_alignLeft="@id/logo" android:layout_alignRight="@id/logo" android:spinnerMode="1" />
+    <EditText android:id="@id/RA" android:layout_width="-2" android:layout_height="-2" android:hint="RA" android:layout_below="@id/unidade" android:layout_alignLeft="@id/unidade" android:layout_alignRight="@id/unidade" android:inputType="2" />
+    <EditText android:id="@id/Senha" android:layout_width="-2" android:layout_height="-2" android:hint="Senha" android:layout_below="@id/RA" android:layout_alignLeft="@id/RA" android:layout_alignRight="@id/RA" android:inputType="81" />
+    <Button android:id="@id/botaoEntrar" android:layout_width="-2" android:layout_height="-2" android:text="Entrar" android:layout_below="@id/Senha" android:layout_alignLeft="@id/Senha" android:layout_alignRight="@id/Senha" />
+    <TextView android:textSize="12sp" android:textColor="#ff090808" android:clickable="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="20dp" android:layout_marginBottom="30dp" android:text="Aplicativo NÃO Oficial" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+    <ImageView android:id="@id/imageView1" android:clickable="false" android:layout_width="-2" android:layout_height="-2" android:src="@drawable/bonecoestudandogrande" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" />
+</RelativeLayout>

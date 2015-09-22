@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:orientation="1" android:background="@drawable/fundodraw" android:layout_width="-1" android:layout_height="-1">
+    <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+        <ImageView android:layout_gravity="1" android:layout_width="-2" android:layout_height="-2" android:src="@drawable/ficux" />
+        <TextView android:textSize="16sp" android:textStyle="1" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="7dp" android:layout_marginRight="7dp" android:text="Este aplicativo é feito de ALUNOS para ALUNOS, sem nenhum tipo de monetarização." />
+        <TextView android:textSize="16sp" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="7dp" android:layout_marginRight="7dp" android:text="As informações são retiradas do site anhanguera.com e formatadas para serem exibidas no aplicativo. Qualquer problema ou dúvida informar pelo e-mail contato@ficux.com.br;" />
+        <TextView android:textSize="16sp" android:gravity="11" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="16sp" android:text="www.ficux.com.br" />
+        <TextView android:textSize="16sp" android:gravity="11" android:layout_width="-1" android:layout_height="-2" android:text="contato@ficux.com.br" />
+        <TextView android:textSize="12sp" android:gravity="11" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="16dp" android:text="versão 2.0" />
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:theme="@*android:style/Theme.Light.NoTitleBar" android:orientation="0" android:background="#ffffffff" android:layout_width="-1" android:layout_height="-1"
+    <LinearLayout android:layout_gravity="11" android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+        <ImageView android:layout_gravity="1" android:id="@id/imageView1" android:layout_width="-2" android:layout_height="-2" android:src="@drawable/ic_launcher" />
+        <TextView android:textColor="#ff333333" android:layout_gravity="1" android:layout_width="-2" android:layout_height="-2" android:text="Sem Conexão com internet." />
+    </LinearLayout>
+</LinearLayout>
