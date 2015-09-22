@@ -5,5 +5,6 @@
 	* [ ]Calcular a nota necessária para 2º bimestre de cada matéria,
 	* [ ]Opção para alterar a média da faculdade,
 	* [ ]Configuração de arrendondamento,
+	* [ ]Acessar o site da anhanguera e pegar as notas
 
 
