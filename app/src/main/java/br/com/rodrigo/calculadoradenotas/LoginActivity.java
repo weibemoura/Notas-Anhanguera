@@ -15,8 +15,8 @@ import org.apache.commons.lang3.StringUtils;
 
 public class LoginActivity extends AppCompatActivity {
 
-    private EditText usuario, senha;
-    private Button autenticar;
+    private EditText username, password;
+    private Button authentication;
     private Handler handlerMsg;
 
     private static final int MSG_FIELDS_EMPTY = 0;
@@ -28,9 +28,9 @@ public class LoginActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
 
-        this.usuario = (EditText) findViewById(R.id.txtUsuario);
-        this.senha = (EditText) findViewById(R.id.txtSenha);
-        this.autenticar = (Button) findViewById(R.id.btnAutenticar);
+        this.username = (EditText) findViewById(R.id.login_txt_username);
+        this.password = (EditText) findViewById(R.id.login_txt_password);
+        this.authentication = (Button) findViewById(R.id.login_btn_authentication);
 
         this.handlerMsg = createHandlerMessage();
     }
@@ -38,13 +38,13 @@ public class LoginActivity extends AppCompatActivity {
     @Override
     protected void onResume() {
         super.onResume();
-        if (autenticar != null) {
-            this.autenticar.setOnClickListener(new View.OnClickListener() {
+        if (authentication != null) {
+            this.authentication.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    if (StringUtils.isEmpty(usuario.getText()) || StringUtils.isEmpty(senha.getText())) {
+                    if (StringUtils.isEmpty(username.getText()) || StringUtils.isEmpty(password.getText())) {
                         handlerMsg.sendEmptyMessage(MSG_FIELDS_EMPTY);
-                    } else if(StringUtils.equals(usuario.getText(), "admin") && StringUtils.equals(senha.getText(), "admin")) {
+                    } else if(StringUtils.equals(username.getText(), "admin") && StringUtils.equals(password.getText(), "admin")) {
                         handlerMsg.sendEmptyMessage(MSG_USER_LOGIN_OK);
                     } else {
                         handlerMsg.sendEmptyMessage(MSG_USER_LOGIN_FAIL);
@@ -61,10 +61,10 @@ public class LoginActivity extends AppCompatActivity {
                 super.handleMessage(msg);
                 switch (msg.what) {
                     case MSG_FIELDS_EMPTY:
-                        Toast.makeText(getApplicationContext(), "Campos obrigatórios.", Toast.LENGTH_LONG).show();
+                        Toast.makeText(LoginActivity.this, "Required fields.", Toast.LENGTH_LONG).show();
                         break;
                     case MSG_USER_LOGIN_OK:
-                        Toast.makeText(getApplicationContext(), "Login efetuado com sucesso.", Toast.LENGTH_SHORT).show();
+                        Toast.makeText(LoginActivity.this, "Logged successfully.", Toast.LENGTH_SHORT).show();
                         try {
                             Thread.sleep(500);
 
@@ -78,7 +78,7 @@ public class LoginActivity extends AppCompatActivity {
                         }
                         break;
                     default:
-                        Toast.makeText(getApplicationContext(), "Usuário não autorizado.", Toast.LENGTH_LONG).show();
+                        Toast.makeText(LoginActivity.this, "Unauthorized user.", Toast.LENGTH_LONG).show();
                 }
             }
         };

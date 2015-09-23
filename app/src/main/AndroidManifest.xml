@@ -2,13 +2,16 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="br.com.rodrigo.calculadoradenotas"
     android:versionCode="5"
-    android:versionName="@string/VName">
+    android:versionName="@string/VName" >
 
     <uses-sdk android:minSdkVersion="14" />
-
     !-- Include required permissions for Google Mobile Ads to run-->
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <android:uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <android:uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <android:uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
     <application
         android:allowBackup="true"
@@ -27,7 +30,7 @@
             android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
             android:theme="@android:style/Theme.Translucent" />
         <activity
-            android:name="br.com.rodrigo.calculadoradenotas.HomeActivity"
+            android:name=".HomeActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -36,8 +39,12 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="br.com.rodrigo.calculadoradenotas.LoginActivity"
+            android:name=".LoginActivity"
             android:label="@string/title_activity_login" >
+        </activity>
+        <activity
+            android:name=".ConfigurationActivity"
+            android:label="@string/title_activity_configuration" >
         </activity>
     </application>
 

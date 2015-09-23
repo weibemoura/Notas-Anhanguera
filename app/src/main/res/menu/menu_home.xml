@@ -2,8 +2,30 @@
       xmlns:app="http://schemas.android.com/apk/res-auto"
       xmlns:tools="http://schemas.android.com/tools"
       tools:context="br.com.rodrigo.calculadoradenotas.HomeActivity">
-    <item android:id="@+id/action_settings"
-          android:title="@string/action_settings"
+
+
+    <item android:id="@+id/menu_note"
+          android:title="@string/menu_notes"
+          android:orderInCategory="100"
+          app:showAsAction="never"/>
+
+    <item android:id="@+id/menu_calculator"
+          android:title="@string/menu_calculator"
+          android:orderInCategory="100"
+          app:showAsAction="never"/>
+
+    <item android:id="@+id/menu_configuration"
+          android:title="@string/menu_configuration"
+          android:orderInCategory="100"
+          app:showAsAction="never"/>
+
+    <item android:id="@+id/menu_about"
+          android:title="@string/menu_about"
+          android:orderInCategory="100"
+          app:showAsAction="never"/>
+
+    <item android:id="@+id/menu_logout"
+          android:title="@string/menu_logout"
           android:orderInCategory="100"
           app:showAsAction="never"/>
 </menu>

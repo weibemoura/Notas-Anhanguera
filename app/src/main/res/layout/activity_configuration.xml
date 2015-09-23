@@ -6,7 +6,8 @@
                 android:paddingRight="@dimen/activity_horizontal_margin"
                 android:paddingTop="@dimen/activity_vertical_margin"
                 android:paddingBottom="@dimen/activity_vertical_margin"
-                tools:context="br.com.rodrigo.calculadoradenotas.LoginActivity">
+                tools:context="br.com.rodrigo.calculadoradenotas.ConfigurationActivity">
+
     <TableLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -19,12 +20,13 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceSmall"
-                    android:text="@string/login.username"
-                    android:id="@+id/login_lb_username"/>
+                    android:text="@string/configuration.ra"
+                    android:id="@+id/configuration_lb_ra"/>
             <EditText
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:id="@+id/login_txt_username"/>
+                    android:inputType="textCapWords"
+                    android:id="@+id/configuration_txt_ra"/>
         </TableRow>
         <TableRow
                 android:layout_width="match_parent"
@@ -33,14 +35,28 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceSmall"
-                    android:text="@string/login.password"
-                    android:id="@+id/login_lb_password"/>
+                    android:text="@string/configuration.password"
+                    android:id="@+id/configuration_lb_password"/>
             <EditText
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:inputType="textPassword"
                     android:ems="10"
-                    android:id="@+id/login_txt_password"/>
+                    android:id="@+id/configuration_txt_password"/>
+        </TableRow>
+        <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="@string/configuration.unit"
+                    android:id="@+id/configuration_lb_unit"/>
+            <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/configuration_txt_unit"/>
         </TableRow>
         <TableRow
                 android:layout_width="match_parent"
@@ -50,12 +66,12 @@
                     android:layout_height="wrap_content"
                     android:textAppearance="?android:attr/textAppearanceSmall"
                     android:text=""
-                    android:id="@+id/login_lb_authentication"/>
+                    android:id="@+id/configuration_lb_save"/>
             <Button
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/login.authentication"
-                    android:id="@+id/login_btn_authentication"/>
+                    android:text="@string/configuration.save"
+                    android:id="@+id/configuration_btn_save"/>
         </TableRow>
     </TableLayout>
 </RelativeLayout>
