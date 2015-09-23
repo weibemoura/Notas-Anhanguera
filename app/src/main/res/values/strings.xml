@@ -22,5 +22,12 @@
     <string name="txtValorIncorreto">Incorrect Value</string>
     <string name="banner_ad_unit_id" > ca-app-pub-7485373867185608/3950862972 </string>
 
+    <string name="hello_world">Hello world!</string>
+
+    <!-- Login -->
+    <string name="title_activity_login">Login</string>
+    <string name="lbUsuario">Usuário</string>
+    <string name="lbSenha">Senha</string>
+    <string name="lbAutenticar">Autenticar</string>
 
 </resources>
