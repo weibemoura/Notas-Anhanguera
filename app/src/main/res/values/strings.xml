@@ -22,5 +22,25 @@
     <string name="txtValorIncorreto">Incorrect Value</string>
     <string name="banner_ad_unit_id" > ca-app-pub-7485373867185608/3950862972 </string>
 
+    <string name="hello_world">Hello world!</string>
 
+    <!-- Menu -->
+    <string name="menu_notes">Notes</string>
+    <string name="menu_calculator">Calculator</string>
+    <string name="menu_configuration">Configuration</string>
+    <string name="menu_about">About</string>
+    <string name="menu_logout">Logout</string>
+
+    <!-- Login -->
+    <string name="title_activity_login">Login</string>
+    <string name="login.username">Username:</string>
+    <string name="login.password">Password:</string>
+    <string name="login.authentication">Authentication</string>
+
+    <!-- Configuração -->
+    <string name="title_activity_configuration">Configuration</string>
+    <string name="configuration.ra">RA:</string>
+    <string name="configuration.password">Password:</string>
+    <string name="configuration.unit">Unit:</string>
+    <string name="configuration.save">Save</string>
 </resources>
