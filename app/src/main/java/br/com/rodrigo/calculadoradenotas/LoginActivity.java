@@ -16,7 +16,7 @@ import org.apache.commons.lang3.StringUtils;
 public class LoginActivity extends AppCompatActivity {
 
     private EditText username, password;
-    private Button authentication;
+    private Button close, authentication;
     private Handler handlerMsg;
 
     private static final int MSG_FIELDS_EMPTY = 0;
@@ -30,6 +30,7 @@ public class LoginActivity extends AppCompatActivity {
 
         this.username = (EditText) findViewById(R.id.login_txt_username);
         this.password = (EditText) findViewById(R.id.login_txt_password);
+        this.close = (Button) findViewById(R.id.login_btn_close);
         this.authentication = (Button) findViewById(R.id.login_btn_authentication);
 
         this.handlerMsg = createHandlerMessage();
@@ -49,6 +50,15 @@ public class LoginActivity extends AppCompatActivity {
                     } else {
                         handlerMsg.sendEmptyMessage(MSG_USER_LOGIN_FAIL);
                     }
+                }
+            });
+        }
+        if (close != null) {
+            this.close.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    finish();
+                    System.exit(0);
                 }
             });
         }

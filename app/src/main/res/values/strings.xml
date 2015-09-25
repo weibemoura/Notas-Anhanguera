@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="VName" translatable="false">1.19</string>
     <string name="app_name">Note Calculator</string>
@@ -35,6 +36,7 @@
     <string name="title_activity_login">Login</string>
     <string name="login.username">Username:</string>
     <string name="login.password">Password:</string>
+    <string name="login.close">Close</string>
     <string name="login.authentication">Authentication</string>
 
     <!-- Configuração -->

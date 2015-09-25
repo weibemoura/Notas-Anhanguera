@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="VName" translatable="false">1.19</string>
     <string name="app_name">Calculadora de Nota</string>
     <string name="action_settings">Configurações</string>
+
     <string name="lbApro">Aprovado</string>
     <string name="lbIMF">Digite a média da faculdade</string>
     <string name="lbN1B">Nota do 1º Bimestre</string>
@@ -19,4 +21,27 @@
     <string name="txtResultado">Resultado</string>
     <string name="txtValorIncorreto">Valor Incorreto</string>
     <string name="banner_ad_unit_id">ca-app-pub-7485373867185608/3950862972</string>
+
+    <string name="hello_world">Olá mundo!</string>
+
+    <!-- Menu -->
+    <string name="menu_notes">Notas</string>
+    <string name="menu_calculator">Calculadora</string>
+    <string name="menu_configuration">Configuração</string>
+    <string name="menu_about">Sobre</string>
+    <string name="menu_logout">Sair</string>
+
+    <!-- Login -->
+    <string name="title_activity_login">Login</string>
+    <string name="login.username">Usuário:</string>
+    <string name="login.password">Senha:</string>
+    <string name="login.close">Sair</string>
+    <string name="login.authentication">Autenticação</string>
+
+    <!-- Configuração -->
+    <string name="title_activity_configuration">Configuração</string>
+    <string name="configuration.ra">RA:</string>
+    <string name="configuration.password">Senha:</string>
+    <string name="configuration.unit">Unidade:</string>
+    <string name="configuration.save">Salvar</string>
 </resources>

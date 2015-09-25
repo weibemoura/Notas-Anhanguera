@@ -45,12 +45,12 @@
         <TableRow
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
-            <TextView
+            <Button
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textAppearance="?android:attr/textAppearanceSmall"
-                    android:text=""
-                    android:id="@+id/login_lb_authentication"/>
+                    android:text="@string/login.close"
+                    android:id="@+id/login_btn_close"/>
+
             <Button
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
